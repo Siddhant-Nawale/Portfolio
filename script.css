@@ -1,5 +1,6 @@
 @import 'utilities.css';
 /*HEADER*/
+/****************************************index*****************************/
 *{
     padding: 0;
     margin: 0;
@@ -10,7 +11,7 @@ html{
     height: 100%;
     width: 100%;
 }
-body{
+.indexbody{
     font-family: 'Poppins',sans-serif;
     background-image: url("./Images/bg6.jpg");
     background-size: cover;
@@ -19,14 +20,14 @@ body{
     width: 100%;
 }
 
-header{
+.indexheader{
     /*background: rgb(32, 32, 32);*/
     height: 80px;
 }
-header nav .left{
+.indexheader nav .left{
     color: white;
 }
-header nav{
+.indexheader nav{
     padding: 0 0;
 }
 
@@ -57,9 +58,7 @@ header nav{
     max-width: 500px;
     margin:5 auto;
 }
-._3bars img{
 
-}
 /*HEADER END*/
 
 
@@ -92,7 +91,7 @@ header nav{
     padding-top: 30px;
     padding-left: 450px;
     color: white;
-    width: 1500px;
+    width: 1200px;
     font-weight: 300;
     align-items: center;
 }
@@ -117,3 +116,212 @@ header nav{
 }
 
 /*MAIN END*/
+/****************************************IndexEnd*****************************/
+
+/****************************************ABOUTME*****************************/
+.AMbody{
+    font-family: 'Poppins',sans-serif;
+    background-image: url(./Images/bg8.jpg);
+    background-size: cover;
+    
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;
+}
+
+.AMheader{
+    /*background: rgb(32, 32, 32);*/
+    height: 80px;
+}
+.AMheader nav .left{
+    color: white;
+}
+.AMheader nav{
+    padding: 0 0;
+}
+.AM_MAIN_BODY{
+    height: 580px;
+
+}
+.AM_SUB_HEADER{
+    height: 80px;
+}
+.AM_SUB_HEADER h1{
+    color: white;
+    font-size: 65px;
+    padding-left: 400px ;
+}
+
+.AM_Main_DIV{
+    padding: 0 0;
+    height: 400px;
+    padding-left: 200px;
+    padding-top: 80px;
+    width: auto;
+}
+.AM_Main_DIV_IMG{
+    height: auto;
+
+}
+
+.AM_Main_TEXT {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.AM_Main_TEXT p{
+    font-size: 20px;
+    color: white;
+
+    width: 550px;
+    font-weight: 600;
+}
+
+/************************************ABOUTMEEND***********************************/
+
+/*********************************CONTACT**********************************/
+.CMbody{
+    font-family: 'Poppins',sans-serif;
+    background-image: url(./Images/bg9.jpg);
+    background-size: cover;
+    
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;
+}
+
+.CMheader{
+    /*background: rgb(32, 32, 32);*/
+    height: 80px;
+}
+.CMheader nav .left{
+    color: white;
+}
+.CMheader nav{
+    padding: 0 0;
+}
+.CM_MAIN_BODY{
+    height: 580px;
+
+}
+.CM_SUB_HEADER{
+    height: 80px;
+
+}
+.CM_SUB_HEADER h1{
+    color: white;
+    font-size: 50px;
+    padding-left: 20px ;
+}
+
+.CM_Main_DIV{
+    padding-left: 20px;
+    height: 160px;
+    width:200;
+
+    width: auto;
+}
+.CM_Main_DIV h4{
+    color: white;
+
+}
+.CM_Main_DIV_IMG{
+    height: auto;
+
+}
+
+.CM_Main_TEXT p{
+    font-size: 20px;
+    color: white;
+
+    width: 550px;
+    font-weight: 600;
+}
+.CM_Main_TEXT h4 a{
+    color: white;
+}
+.form{
+    padding: 20px;
+    color:white;
+    width: 600px;
+    height: 200px;
+    border: white 20px;
+}
+.C hr{
+    border: gray 1px solid;
+}
+.C input[type=submit]{
+    background-color: turquoise;
+    padding: 10px 20px;
+}
+
+/*********************************CONTACTEND**********************************/
+
+/*********************************CONTACT**********************************/
+.PMbody{
+    font-family: 'Poppins',sans-serif;
+    background-image: url(./Images/bg.jpg);
+    background-size: cover;
+    
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;
+}
+
+.PMheader{
+    /*background: rgb(32, 32, 32);*/
+    height: 80px;
+}
+.PMheader nav .left{
+    color: white;
+}
+.PMheader nav{
+    padding: 0 0;
+}
+.PM_MAIN_BODY{
+    height: 580px;
+
+}
+.PM_SUB_HEADER{
+    height: 80px;
+
+}
+.PM_SUB_HEADER h1{
+    color: white;
+    font-size: 50px;
+    padding-left: 20px ;
+}
+
+.PM_Main_DIV{
+    padding-left: 20px;
+    height: auto;
+    border: white 2px;
+    border-width: 10px;
+
+    width: auto;
+}
+.PM_Main_DIV h4{
+    color: white;
+}
+
+
+.PM_Main_TEXT p{
+    font-size: 20px;
+    color: white;
+
+    width: 550px;
+    font-weight: 600;
+}
+.PM_Main_TEXT h4 a{
+    color: white;
+}
+
+/*********************************CONTACTEND**********************************/
