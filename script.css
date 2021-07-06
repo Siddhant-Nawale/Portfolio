@@ -47,6 +47,7 @@ html{
     transition: all 1.5s ease;
     outline:none;
     cursor: pointer;
+	position :static;
 }
 .main_head_box button:hover{
     background: rgb(27, 218, 252);
