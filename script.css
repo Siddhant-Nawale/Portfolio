@@ -8,7 +8,7 @@
     -webkit-font-smotthing:antialiased;
 }
 html{
-    height: 100%;
+    height: 112%;
     width: 100%;
 }
 .indexbody{
@@ -21,8 +21,9 @@ html{
 }
 
 .indexheader{
-    /*background: rgb(32, 32, 32);*/
-    height: 80px;
+    height: 10%;
+    width: 100%;
+    
 }
 .indexheader nav .left{
     color: white;
@@ -32,15 +33,15 @@ html{
 }
 
 .main_head_box{
-    max-width: 700px;
-    padding: 0 0.8rem;
+    width: 70%;
+    height : 0%;
+    padding: 0 0.08%;
     margin: 0 auto;
 }
 .main_head_box button{
-    height: 80px;
+    height: 300%;
     width: 120px;
     font-size: 1rem;
-    font-weight: 700;
     border: 2px solid transparent;
     background-color: transparent;
     color:white;
@@ -57,7 +58,7 @@ html{
 
 ._3bars {
     max-width: 500px;
-    margin:5 auto;
+    margin:5px auto;
 }
 
 /*HEADER END*/
@@ -71,10 +72,10 @@ html{
 }
 
 .M_Main_DIV{
-    padding-top: 140px;
-    padding-left: 300px;
+    padding-top: 11%;
+    padding-left: 23%;
     color: white;
-    width: 1100px;
+    width: 100%;
 }
 .M_Main_DIV small{
     text-align: center;
@@ -85,23 +86,25 @@ html{
 .M_Main_h1{
     font-size: 50px;
     align-items: center;
-    font-weight: 1500;
+    font-weight: 1500px;
+    width: 80%;
 }
 
 .M_DIV2{
-    padding-top: 30px;
-    padding-left: 450px;
+    padding-top: 3%;
+    padding-left: 20%;
     color: white;
-    width: 1200px;
+    width: 100%;
+    height: 100px;
     font-weight: 300;
     align-items: center;
 }
 .M_DIV2 button{
-    height: 40px;
-    width: 150px;
-    margin-left: 30px;
+    height: 80%;
+    width: 24%;
+    margin-left: 5%;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 700px;
     border: 2px solid white;
     background-color: transparent;
     color:white;
@@ -266,7 +269,7 @@ html{
 /*********************************CONTACT**********************************/
 .PMbody{
     font-family: 'Poppins',sans-serif;
-    background-image: url(./Images/bg.jpg);
+    background-image: url(./Images/bg10.jpg);
     background-size: cover;
     
     width: 100%;
@@ -312,7 +315,45 @@ html{
 .PM_Main_DIV h4{
     color: white;
 }
+.PM_Main_DIV h1{
+    color: white;
+}
+.border{
+    border-color: white;
+    color: white;
+    border-width: 2px;
+    border: solid;
+}
+.proj_im{
+    width: 40%;
+}
+.projects1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: 18px;
+    color: white;
 
+}
+.a a{
+    text-decoration: none;
+    color: white;
+}
+
+.a div:hover a{
+    color: black;
+}
+
+.projects2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: 18px;
+    color: white;
+}
+.pad10{
+    padding-left: 10px;
+}
 
 .PM_Main_TEXT p{
     font-size: 20px;
@@ -324,5 +365,42 @@ html{
 .PM_Main_TEXT h4 a{
     color: white;
 }
-
 /*********************************CONTACTEND**********************************/
+/*********************************SKILLS**********************************/
+.SMbody{
+    font-family: 'Poppins',sans-serif;
+    background-image: url(./Images/bg12.jpg);
+    background-size: cover;
+    padding-left: 100px;
+    width: 100%;
+    height: 100%;
+}
+.skills{
+    color:white;
+    font-size:large;
+    align-items: left;
+
+}
+
+.progress {
+    width: 350px;
+    height: 50px;
+	color : white;
+}
+.glow{
+    transition: all 1.5s ease;
+    outline:none;
+    cursor: pointer;
+}
+.glow div:hover{
+    background: white;
+    border: 2px rgb(3, 77, 119);
+    color: black;
+    text-decoration-style: solid;
+}
+.g{
+}
+.g div:hover a{
+    color: blue;
+}
+/*********************************SKILLSEND**********************************/
